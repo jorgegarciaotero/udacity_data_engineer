@@ -19,6 +19,8 @@ from sklearn.multioutput import MultiOutputClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV
+import pickle
+
 
 def load_data(database_filepath):
     '''
@@ -63,11 +65,18 @@ def build_model():
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
-    pass
+    y_pred = model.predict(X_test)
+    for i,col in enumerate(category_names):
+        result=classification_report(Y_test[col], y_pred[:, i],digits=3)
+        print("i: ",i)
+        print("Column: ", col,":\n ",result)
+    return
 
 
 def save_model(model, model_filepath):
-    pass
+    with open(model_filepath, 'wb') as f:
+        pickle.dump(model, f)
+    return
 
 
 def main():
