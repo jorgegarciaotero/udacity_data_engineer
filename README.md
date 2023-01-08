@@ -1,8 +1,10 @@
-# Disaster Response Pipeline Project of Data Engineering nano degree from Udacity [Udacity](https://learn.udacity.com/paid-courses/cd0018/)
+# Disaster Response Pipeline Project of Data Engineering nano degree from [Udacity](https://learn.udacity.com/paid-courses/cd0018/)
 ---
 ### Objective: 
 The objective of this project is to put in practice all the knowledge aquired during this course, which includes:
--Basic SQLAlchemy usage (using sqlite3).
+- **ETL**: Includes Basic SQLAlchemy usage (using sqlite3) to store and query dataframes and dataframe manipulation and merging.
+- **Machine Learning**: Includes using ML Pipelines, sklearn functions for classifying text, TF-IDF, crossvalidating with GridSearchCV,...
+- **Presentation in a web server**: Using Python's Flask WS and Matplotlib.
 
 
 ### Instructions:
