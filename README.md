@@ -12,15 +12,7 @@ For suitable develop the project, the following files were provided:
 - Python files:
 1. process_data.py (/home/workspace/data). Contains the functions used in the ETL Process: Data loading from .CSV, data transformations and data storage in SQLITE3 database. The execution of this scripts stored the merged and transformed dataframes into DisasterResponse.db.
 2. train_classifier.py (/home/workspace/models). Contains the Machine Learning pipeline. It reads the DisasterResponse.db file, tokenize the data, build the model, evaluates it and saves it into a .pkl file. 
-
-
-
-
-
-
-
-
-
+3. run.py (/home/workspace/app). Executable that launches Flask server in development mode. 
 
 
 
