@@ -1,4 +1,9 @@
-# Disaster Response Pipeline Project
+# Disaster Response Pipeline Project of Data Engineering nano degree from Udacity [Udacity](https://learn.udacity.com/paid-courses/cd0018/)
+---
+### Objective: 
+The objective of this project is to put in practice all the knowledge aquired during this course, which includes:
+-Basic SQLAlchemy usage (using sqlite3).
+
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
