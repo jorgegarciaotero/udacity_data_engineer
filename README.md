@@ -22,6 +22,8 @@ For suitable develop the project, the following files were provided:
     - The main directory is: /home/workspace
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        ![image](https://user-images.githubusercontent.com/46486273/211411059-09811609-8864-46a4-826e-8a5af80a9f01.png)
+
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 ![image](https://user-images.githubusercontent.com/46486273/211402525-f57a42fb-3534-4c97-82da-20e177be5d63.png)
