@@ -26,7 +26,7 @@ For suitable develop the project, the following files were provided:
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 ![image](https://user-images.githubusercontent.com/46486273/211402525-f57a42fb-3534-4c97-82da-20e177be5d63.png)
 
-![image](https://user-images.githubusercontent.com/46486273/211410812-1b58f3f4-5c50-46a6-b8d8-5871b91c3bce.png)
+![image](https://user-images.githubusercontent.com/46486273/211410964-bd5e2683-2af0-4923-bff7-4fde182f4b2f.png)
 
 
 2. Go to `app` directory: `cd app`
