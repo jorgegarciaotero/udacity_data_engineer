@@ -24,6 +24,7 @@ For suitable develop the project, the following files were provided:
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+![image](https://user-images.githubusercontent.com/46486273/211402525-f57a42fb-3534-4c97-82da-20e177be5d63.png)
 
 2. Go to `app` directory: `cd app`
 
