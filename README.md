@@ -15,8 +15,6 @@ For suitable develop the project, the following files were provided:
 3. run.py (/home/workspace/app). Executable that launches Flask server in development mode. 
 
 
-
-
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
     - The main directory is: /home/workspace
@@ -36,3 +34,9 @@ For suitable develop the project, the following files were provided:
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
+
+
+### Website Preview:
+![image](https://user-images.githubusercontent.com/46486273/212464694-46ec53fb-a7c4-4eab-90de-cc0873616c58.png)
+
+![image](https://user-images.githubusercontent.com/46486273/212464687-704fe9fd-9e37-48e7-9f63-fd4b870fe3c2.png)
