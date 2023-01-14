@@ -16,6 +16,10 @@ from sqlalchemy import create_engine
 app = Flask(__name__)
 
 def tokenize(text):
+    '''
+    input: text column from dataframe to tokenize.
+    output: tokens to use the CountVectorized method
+    '''
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
     clean_tokens = []
@@ -37,6 +41,9 @@ print(df.dtypes)
 @app.route('/')
 @app.route('/index')
 def index():
+    '''
+    Route to index page. Graphs are build here.
+    '''
     # extract data needed for visuals
     # TODO: Below is an example - modify to extract data for your own visuals
     genre_counts = df.groupby('genre').count()['message']
@@ -137,6 +144,9 @@ def index():
 # web page that handles user query and displays model results
 @app.route('/go')
 def go():
+    '''
+    Route to text classifier.
+    '''
     # save user input in query
     query = request.args.get('query', '') 
     # use model to predict classification for query
